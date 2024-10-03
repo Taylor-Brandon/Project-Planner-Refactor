@@ -33,9 +33,11 @@ export default function CardForm () {
     return (
         <div className='field'>
             <div className='control'>
-                <input onChange={handleFormChange} name='eventName' value={event.eventName} className='input' type='text' placeholder='Event'></input>
-                <button onClick={handleSubmit} className='button is-link'>Submit</button>
-                <button onClick={handleDelete} className='button is-danger'>Delete</button>
+                <div className='form-container'>
+                <input id='input' onChange={handleFormChange} name='eventName' value={event.eventName} className='input' type='text'></input>
+                <button id='add' onClick={handleSubmit} className='button is-small'>+</button>
+                <button id='delete' onClick={handleDelete} className='button is-small'>x</button>
+                </div>
             </div>
         </div>
     );
