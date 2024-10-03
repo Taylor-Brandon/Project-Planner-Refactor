@@ -11,7 +11,8 @@ export default function Card(props) {
         const day5 = current.add(5, 'day').format('MMM D, YYYY');
         const day6 = current.add(6, 'day').format('MMM D, YYYY');
     return(
-        <div className='table'>
+        <div style={{ overflowX: 'auto' }}>
+        <table className='table is-bordered is-hoverable'>
             <thead>
                 <tr>
                     <th>Time</th>
@@ -35,7 +36,6 @@ export default function Card(props) {
                     <td><CardForm /></td>
                     <td><CardForm /></td>
                 </tr>
-                <br></br>
                 <tr>
                     <th>1 am</th>
                     <td><CardForm /></td>
@@ -46,7 +46,6 @@ export default function Card(props) {
                     <td><CardForm /></td>
                     <td><CardForm /></td>
                 </tr>
-                <br></br>
                 <tr>
                     <th>2 am</th>
                     <td><CardForm /></td>
@@ -57,7 +56,6 @@ export default function Card(props) {
                     <td><CardForm /></td>
                     <td><CardForm /></td>
                 </tr>
-                <br></br>
                 <tr>
                     <th>3 am</th>
                     <td><CardForm /></td>
@@ -68,7 +66,6 @@ export default function Card(props) {
                     <td><CardForm /></td>
                     <td><CardForm /></td>
                 </tr>
-                <br></br>
                 <tr>
                     <th>4 am</th>
                     <td><CardForm /></td>
@@ -79,7 +76,6 @@ export default function Card(props) {
                     <td><CardForm /></td>
                     <td><CardForm /></td>
                 </tr>
-                <br></br>
                 <tr>
                     <th>5 am</th>
                     <td><CardForm /></td>
@@ -90,7 +86,6 @@ export default function Card(props) {
                     <td><CardForm /></td>
                     <td><CardForm /></td>
                 </tr>
-                <br></br>
                 <tr>
                     <th>6 am</th>
                     <td><CardForm /></td>
@@ -101,7 +96,6 @@ export default function Card(props) {
                     <td><CardForm /></td>
                     <td><CardForm /></td>
                 </tr>
-                <br></br>
                 <tr>
                     <th>7 am</th>
                     <td><CardForm /></td>
@@ -112,7 +106,6 @@ export default function Card(props) {
                     <td><CardForm /></td>
                     <td><CardForm /></td>
                 </tr>
-                <br></br>
                 <tr>
                     <th>8 am</th>
                     <td><CardForm /></td>
@@ -123,7 +116,6 @@ export default function Card(props) {
                     <td><CardForm /></td>
                     <td><CardForm /></td>
                 </tr>
-                <br></br>
                 <tr>
                     <th>9 am</th>
                     <td><CardForm /></td>
@@ -134,7 +126,6 @@ export default function Card(props) {
                     <td><CardForm /></td>
                     <td><CardForm /></td>
                 </tr>
-                <br></br>
                 <tr>
                     <th>10 am</th>
                     <td><CardForm /></td>
@@ -145,7 +136,6 @@ export default function Card(props) {
                     <td><CardForm /></td>
                     <td><CardForm /></td>
                 </tr>
-                <br></br>
                 <tr>
                     <th>11 am</th>
                     <td><CardForm /></td>
@@ -156,7 +146,6 @@ export default function Card(props) {
                     <td><CardForm /></td>
                     <td><CardForm /></td>
                 </tr>
-                <br></br>
                 <tr>
                     <th>12 pm</th>
                     <td><CardForm /></td>
@@ -167,7 +156,6 @@ export default function Card(props) {
                     <td><CardForm /></td>
                     <td><CardForm /></td>
                 </tr>
-                <br></br>
                 <tr>
                     <th>1 pm</th>
                     <td><CardForm /></td>
@@ -178,7 +166,6 @@ export default function Card(props) {
                     <td><CardForm /></td>
                     <td><CardForm /></td>
                 </tr>
-                <br></br>
                 <tr>
                     <th>2 pm</th>
                     <td><CardForm /></td>
@@ -189,7 +176,6 @@ export default function Card(props) {
                     <td><CardForm /></td>
                     <td><CardForm /></td>
                 </tr>
-                <br></br>
                 <tr>
                     <th>3 pm</th>
                     <td><CardForm /></td>
@@ -200,7 +186,6 @@ export default function Card(props) {
                     <td><CardForm /></td>
                     <td><CardForm /></td>
                 </tr>
-                <br></br>
                 <tr>
                     <th>4 pm</th>
                     <td><CardForm /></td>
@@ -211,7 +196,6 @@ export default function Card(props) {
                     <td><CardForm /></td>
                     <td><CardForm /></td>
                 </tr>
-                <br></br>
                 <tr>
                     <th>5 pm</th>
                     <td><CardForm /></td>
@@ -222,7 +206,6 @@ export default function Card(props) {
                     <td><CardForm /></td>
                     <td><CardForm /></td>
                 </tr>
-                <br></br>
                 <tr>
                 <th>6 pm</th>
                     <td><CardForm /></td>
@@ -233,7 +216,6 @@ export default function Card(props) {
                     <td><CardForm /></td>
                     <td><CardForm /></td>
                 </tr>
-                <br></br>
                 <tr>
                     <th>7 pm</th>
                     <td><CardForm /></td>
@@ -244,7 +226,6 @@ export default function Card(props) {
                     <td><CardForm /></td>
                     <td><CardForm /></td>
                 </tr>
-                <br></br>
                 <tr>
                     <th>8 pm</th>
                     <td><CardForm /></td>
@@ -255,7 +236,6 @@ export default function Card(props) {
                     <td><CardForm /></td>
                     <td><CardForm /></td>
                 </tr>
-                <br></br>
                 <tr>
                     <th>9 pm</th>
                     <td><CardForm /></td>
@@ -266,7 +246,6 @@ export default function Card(props) {
                     <td><CardForm /></td>
                     <td><CardForm /></td>
                 </tr>
-                <br></br>
                 <tr>
                     <th>10 pm</th>
                     <td><CardForm /></td>
@@ -277,7 +256,6 @@ export default function Card(props) {
                     <td><CardForm /></td>
                     <td><CardForm /></td>
                 </tr>
-                <br></br>
                 <tr>
                     <th>11 pm</th>
                     <td><CardForm /></td>
@@ -288,7 +266,6 @@ export default function Card(props) {
                     <td><CardForm /></td>
                     <td><CardForm /></td>
                 </tr>
-                <br></br>
                 <tr>
                     <th>12 am</th>
                     <td><CardForm /></td>
@@ -300,6 +277,7 @@ export default function Card(props) {
                     <td><CardForm /></td>
                 </tr>
             </tbody>
+        </table>
         </div>
     );
 }

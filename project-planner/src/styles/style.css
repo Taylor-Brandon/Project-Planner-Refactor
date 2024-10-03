@@ -1,0 +1,35 @@
+#main-header{
+    text-align: center;
+    margin-top: 20px;
+    color: white;
+}
+#current-date{
+    font-weight: 700;
+}
+#current-time{
+    display: flex;
+    justify-content: start;
+    margin-left: 115px;
+    margin-top: -30px;
+}
+#table{
+    display: flex;
+    flex-wrap: wrap;
+    width: 120%;
+}
+.field{
+    width: 100%;
+}
+#input{
+    border: 0px solid black;
+}
+#add{
+    display: flex;
+    margin-top: -38px;
+   margin-left: 200px;
+}
+#delete{
+    display: flex;
+    margin-top: -30px;
+    margin-left: 235px;
+}
