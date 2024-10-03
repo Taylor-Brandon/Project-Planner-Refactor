@@ -1,6 +1,6 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
-import App from './app';
+import App from './App'
 import 'bulma/css/bulma.min.css';
 import { motion } from "framer-motion"
 
