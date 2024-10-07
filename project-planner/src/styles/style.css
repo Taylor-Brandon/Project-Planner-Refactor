@@ -1,37 +1,55 @@
-#main-header{
+.header {
     text-align: center;
+}
+#main-header {
+    display: inline-block;
+    max-width: 220px; 
+    text-align: center;
+    white-space: nowrap; 
+    overflow: hidden;
+    border-right: 1px solid; 
+    animation: typing 10s steps(80) forwards, cursor .4s step-end infinite alternate;
     margin-top: 20px;
     color: white;
 }
-#current-date{
+#current-date {
     font-weight: 700;
 }
-#current-time{
+#current-time {
     display: flex;
     justify-content: start;
     margin-left: 115px;
     margin-top: -30px;
 }
-#table{
+#table {
     display: flex;
     flex-wrap: wrap;
     width: 120%;
 }
-.field{
+.field {
     width: 100%;
 }
-#input{
+#input {
     border: 0px solid black;
 }
-#add{
+#add {
     display: flex;
     margin-top: -38px;
-   margin-left: 200px;
+    margin-left: 200px;
 }
-#delete{
+#delete {
     display: flex;
     margin-top: -30px;
     margin-left: 235px;
 }
+@keyframes typing {
+    from { width: 0; } 
+    to { width: 100%; } 
+}
+@keyframes cursor {
+    50% { border-color: transparent; } 
+}
 
-  
+
+
+
