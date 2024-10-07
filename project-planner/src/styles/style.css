@@ -49,6 +49,9 @@
     margin-top: -50px;
     margin-bottom: 10px;
 }
+.past{
+    background-color: lightpink;
+}
 @keyframes typing {
     from { width: 0; } 
     to { width: 100%; } 

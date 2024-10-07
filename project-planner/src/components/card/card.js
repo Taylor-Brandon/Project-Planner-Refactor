@@ -42,13 +42,13 @@ export default function Card(props) {
         const getTimeDiff = (time) => {
             if (time.isBefore(current, 'hour')) {
                 console.log('Past: is-primary');
-                return 'has-background-primary-dark';
+                return 'has-background-danger-dark has-text-danger';
             } else if (time.isSame(current, 'hour')) {
                 console.log('Present: has-text-success');
-                return 'has-background-info-dark';
+                return 'has-background-info-dark has-text-info';
             } else {
                 console.log('Future: has-text-danger');
-                return 'has-background-link-dark';
+                return 'has-background-primary-dark has-text-primary';
             }
         };
         
@@ -69,8 +69,8 @@ export default function Card(props) {
             </thead>
             <tbody>
             {timeSlots.map((slot) => (
-                        <tr key={slot.id} className={`time-slot ${getTimeDiff(slot.dayJs)}`}>
-                            <th>{slot.realTime}</th>
+                        <tr key={slot.id}>
+                            <th className={`time-slot ${getTimeDiff(slot.dayJs)}`}>{slot.realTime}</th>
                             <td><CardForm /></td>
                             <td><CardForm /></td>
                             <td><CardForm /></td>
