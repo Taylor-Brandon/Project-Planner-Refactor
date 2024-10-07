@@ -7,6 +7,7 @@ import './styles/style.css';
 export default function App() {
     const today = dayjs().format('MMM D, YYYY');
     const time = dayjs().format('h:mm A');
+
     return(
         <div className='body'>
             <Header today={today} time={time} />
