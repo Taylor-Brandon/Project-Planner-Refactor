@@ -14,14 +14,12 @@ export default function CardForm () {
 
     const handleSubmit = (e) => {
         e.preventDefault();
-
         localStorage.setItem("event", JSON.stringify(event));
         console.log(event);
     }
 
     const handleDelete = (e) => {
         e.preventDefault();
-
         localStorage.removeItem("event");
         setEvent({eventName: ''});
         alert('Done!');
