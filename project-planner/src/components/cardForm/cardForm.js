@@ -53,7 +53,7 @@ export default function CardForm (props) {
                         onChange={handleFormChange} 
                         name='eventName' 
                         value={event.eventName} 
-                        className='input' 
+                        className='input has-text-black' 
                         type='text' 
                     />
                     

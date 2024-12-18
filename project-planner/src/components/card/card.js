@@ -26,14 +26,14 @@ export default function Card(props) {
             <table className='table is-bordered is-hoverable'>
                 <thead>
                     <tr>
-                        <th>Time</th>
-                        <th>{props.today}</th>
-                        <th>{tomorrow}</th>
-                        <th>{day2}</th>
-                        <th>{day3}</th>
-                        <th>{day4}</th>
-                        <th>{day5}</th>
-                        <th>{day6}</th>
+                        <th className='has-text-black'>Time</th>
+                        <th className='has-text-black'>{props.today}</th>
+                        <th className='has-text-black'>{tomorrow}</th>
+                        <th className='has-text-black'>{day2}</th>
+                        <th className='has-text-black'>{day3}</th>
+                        <th className='has-text-black'>{day4}</th>
+                        <th className='has-text-black'>{day5}</th>
+                        <th className='has-text-black'>{day6}</th>
                     </tr>
                 </thead>
                 <tbody>

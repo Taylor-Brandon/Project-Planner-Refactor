@@ -12,12 +12,12 @@ export default function Headers(props) {
             <h1 id='main-header' className='is-size-3'>Project Planner</h1>
             </div>
             <div className='date is-size-5 has-text-white mb-4 ml-3'>
-            <h2 id='current-date'>{props.today}</h2>
-            <h3 id='current-time'>{props.time}</h3>
+            <h2 className='has-text-black' id='current-date'>{props.today}</h2>
+            <h3 className='has-text-black' id='current-time'>{props.time}</h3>
             </div>
             <div id='delete-all'>
             <div className='button'>
-                <button onClick={handleDeleteAll}>Delete All</button>
+                <button className='has-text-black has-border-black' onClick={handleDeleteAll}>Delete All</button>
             </div>
             </div>
             </div>
