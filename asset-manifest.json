@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/Project-Planner-Refactor/static/css/main.18b24ade.css",
+    "main.js": "/Project-Planner-Refactor/static/js/main.0454fd04.js",
+    "index.html": "/Project-Planner-Refactor/index.html",
+    "main.18b24ade.css.map": "/Project-Planner-Refactor/static/css/main.18b24ade.css.map",
+    "main.0454fd04.js.map": "/Project-Planner-Refactor/static/js/main.0454fd04.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.18b24ade.css",
+    "static/js/main.0454fd04.js"
+  ]
+}
